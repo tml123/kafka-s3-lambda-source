@@ -1,0 +1,17 @@
+{"namespace": "com.fts.stream.app",
+    "type": "record",
+    "name": "Crime",
+    "fields": [
+        {"name": "incident_id", "type": "int"},
+        {"name": "category",  "type": "string"},
+        {"name": "description", "type": "string"},
+        {"name": "weekday", "type": "string"},
+        {"name": "date", "type": "string"},
+        {"name": "time", "type": "string"},
+        {"name": "district", "type": "string"},
+        {"name": "resolution", "type": "string"},
+        {"name": "address", "type": "string"},
+        {"name": "lat", "type": "float"},
+        {"name": "lon", "type": "float"}
+    ]
+   }
